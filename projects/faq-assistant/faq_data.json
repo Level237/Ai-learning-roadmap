@@ -1,0 +1,12 @@
+[
+  {
+    "question": "Quels sont vos horaires d'ouverture ?",
+    "answer": "Nous sommes ouverts du lundi au vendredi de 8h à 18h et le samedi de 8h à 13h.",
+    "category": "horaires"
+  },
+  {
+    "question": "Comment nous contacter ?",
+    "answer": "Nous sommes à l'entree charlie.",
+    "category": "horaires"
+  }
+]
