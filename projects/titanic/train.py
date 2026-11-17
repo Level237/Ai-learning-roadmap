@@ -22,7 +22,7 @@ X_train, X_test, y_train, y_test = train_test_split(
     X, y, test_size=0.6, random_state=42
 )
 
-for depth in [3, 4, 5]:
+for depth in [2, 3, 4]:
     tree = DecisionTreeClassifier(max_depth=depth, random_state=42)
     scores = cross_val_score(tree, X, y, cv=5, scoring='accuracy')
     print(f"max_depth={depth}: {scores.mean():.3f} (+/- {scores.std():.3f})")
